@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hCaptcha Example</title>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+  </head>
+  <body>
+    <h1>hCaptcha Example</h1>
+    <form action="/submit" method="post">
+      <div class="h-captcha" data-sitekey="{{ site_key }}"></div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
